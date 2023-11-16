@@ -15,7 +15,7 @@ type NgrokTunnelsResponse struct {
 	} `json:"tunnels"`
 }
 
-func main() {
+func EnvUpdate() {
 	// ngrok APIからトンネル情報を取得
 	resp, err := http.Get("http://127.0.0.1:4040/api/tunnels")
 	if err != nil {
