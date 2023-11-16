@@ -1,4 +1,4 @@
-package main
+package envupdate
 
 import (
 	"encoding/json"
