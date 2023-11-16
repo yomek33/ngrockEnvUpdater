@@ -1,4 +1,4 @@
-package envupdate
+package ngrockEnvUpdater
 
 import (
 	"encoding/json"
